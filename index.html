@@ -2,7 +2,42 @@
     <head>
         <title>test</title>
     </head>
+    <!-- CSS: Cascading Style sheets-->
+     <!--Type
+     Inline,Internal,External-->
+     <style>
+        *{
+            color:red;
+        }
+        p{
+            color:purple;
+        }
+        b{
+            color:green;
+        }
+        h1{
+            color:black;
+        }
+        #f{
+            color:aqua;
+        }
+        .hero p{
+            color:darkkhaki;
+        }
+        .hero > p{
+            color:purple;
+        }
+        .hero ~ p{
+            color:green;
+        }
+        .hero + p{
+            color:blue;
+        }
+
+
+     </style>
     <body>
+        <div class="hero">
         <h1>CSIT</h1>
         <h2>CSIT</h2>
         <h3>CSIT</h3>
@@ -19,10 +54,12 @@
         Itaque, fugit nesciunt vero suscipit optio, provident voluptates sapiente quae, dolore quos quibusdam veniam enim exercitationem voluptas! Iusto temporibus praesentium voluptates distinctio quidem, optio laudantium totam hic amet! Numquam, totam!
         Laborum voluptatum esse, est excepturi quo repellendus aperiam iusto placeat reiciendis eius facere corrupti odit saepe. Maxime laborum perferendis facilis ratione! Necessitatibus doloribus maiores accusantium porro dolorum obcaecati modi voluptates?
         Quam voluptate deleniti tenetur laudantium, error quis impedit natus praesentium nostrum est minus maxime doloremque quos voluptates perspiciatis dicta, magni iure, eaque facilis beatae. Provident laboriosam corporis dolor veritatis ab.</p>
+        <P>hey</P>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, nam?</p>
         <p>A</p>
+        <div>
         <b>Prime</b>
-        <i>College</i>
+        <i id="f">College</i>
         <u>IT club</u>
         <strong>EMC</strong>
         <tt>Phone</tt>
@@ -31,6 +68,8 @@
             hello   
                 hello
         </pre>
-        
+      </div>
+        </div>
+
     </body>
 </html>
